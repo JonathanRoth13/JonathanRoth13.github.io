@@ -1,0 +1,11 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Jonathan Roth"
+theme = "m10c"
+
+
+
+[Params]
+author = "Jonathan Roth"
+description = "Description of Jonathan Roth"
+avatar = "/home/styg/pictures/avatars/2020-08-22_headshot.jpg"
