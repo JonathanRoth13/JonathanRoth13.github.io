@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title></title>
+    <link>/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 27 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bumbling</title>
+      <link>/projects/bumbling/</link>
+      <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/bumbling/</guid>
+      <description>Introduction I&amp;rsquo;ve encountered the following scenario several times:
+My family and I have a vacation of some sort and we each take pictures throughout the entire length of the trip. Afterwards, we share them by uploading them to a shared server. However, all of the photos are all out of order because different phones and cameras use different conventions for naming images. Organizing the photos afterwards can be tedious because the photos are often not sorted in chronological order.</description>
+    </item>
+    
+    
+  </channel>
+</rss>
