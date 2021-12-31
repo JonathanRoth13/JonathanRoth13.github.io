@@ -24,9 +24,9 @@ languages:
         profileMode:
             enabled: true
             title: "Jonathan Roth"
-            imageUrl: "/resources/avatar.png"
-            imageWidth: 120
-            imageHeight: 120
+            imageUrl: "avatar.jpg"
+            imageWidth: 256
+            imageHeight: 256
             subtitle: "grateful for where my love of mathematics has taken me"
             buttons:
                 - name: Blog
