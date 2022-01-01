@@ -116,9 +116,7 @@ params:
     #     keys: ["title", "permalink", "summary", "content"]
 
 taxonomies:
-        Tags: tags
-        Categories: catagories
-        Series: series
+
 markup:
     goldmark:
         renderer:
