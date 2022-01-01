@@ -29,27 +29,33 @@ languages:
             imageHeight: 256
             subtitle: "grateful for where my love of mathematics has taken me"
             buttons:
-                - name: Blog
-                  url: posts
-                - name: Tags
-                  url: tags
+
         menu:
             main:
                 - name: Home
-                  url:  #
+                  url: # 
                   weight: 10
-                - name: Archive
-                  url: archives/
+                - name: About Me
+                  url: about_me/
                   weight: 11
-                - name: Tags
-                  url: tags
+                - name: Projects
+                  url: posts/
                   weight: 12
-                - name: Categories
-                  url: categories
-                  weight: 13
-                - name: Series
-                  url: series
-                  weight: 14
+                  #                - name: Search
+                  #                  url: search/
+                  #                  weight: 13
+                  #                - name: Archive
+                  #                  url: archives/
+                  #                  weight: 11
+                  #                - name: Tags
+                  #                  url: tags
+                  #                  weight: 12
+                  #                - name: Categories
+                  #                  url: categories
+                  #                  weight: 13
+                  #                - name: Series
+                  #                  url: series
+                  #                  weight: 14
 
 
 outputs:
@@ -63,7 +69,7 @@ params:
     description: "Jonathan Roth Blog"
     author: Jonathan Roth
 
-    defaultTheme: night
+    defaultTheme: dark
     disableThemeToggle: true
     ShowShareButtons: false
     ShowReadingTime: false
@@ -74,15 +80,15 @@ params:
     ShowCodeCopyButtons: true
     ShowToc: true
     # comments: false
-    images: ["papermod-cover.png"]
+    #images: ["papermod-cover.png"]
 
     socialIcons:
         - name: github
-          url: ""
+          url: "https://github.com/JonathanRoth13"
         - name: linkedin
-          url: ""
+          url: "https://www.linkedin.com/in/jonathanroth13/"
         - name: email
-          url: ""
+          url: "mailto:jonathanroth@protonmail.com"
 
     # analytics:
     #     google:
@@ -110,10 +116,9 @@ params:
     #     keys: ["title", "permalink", "summary", "content"]
 
 taxonomies:
-    category: categories
-    tag: tags
-    series: series
-
+        Tags: tags
+        Categories: catagories
+        Series: series
 markup:
     goldmark:
         renderer:
