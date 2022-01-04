@@ -33,29 +33,24 @@ languages:
         menu:
             main:
                 - name: Home
-                  url: # 
+                  url: / 
                   weight: 10
                 - name: About Me
                   url: about_me/
                   weight: 20
                 - name: Projects
-                  url: posts/
+                  url: projects/
                   weight: 30
-                  #                - name: Search
-                  #                  url: search/
-                  #                  weight: 13
-                  #                - name: Archive
-                  #                  url: archives/
-                  #                  weight: 11
-                  #                - name: Tags
-                  #                  url: tags
-                  #                  weight: 12
-                  #                - name: Categories
-                  #                  url: categories
-                  #                  weight: 13
-                  #                - name: Series
-                  #                  url: series
-                  #                  weight: 14
+                - name: Posts
+                  url: posts/
+                  weight: 40
+                - name: Search
+                  url: search/
+                  weight: 50
+                - name: Archive
+                  url: archive/
+                  weight: 60
+
 
 
 outputs:
