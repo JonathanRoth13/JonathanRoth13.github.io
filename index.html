@@ -30,42 +30,11 @@
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --hljs-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
-
-    </style>
 </noscript><meta property="og:title" content="" />
 <meta property="og:description" content="Jonathan Roth Blog" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="/" /><meta property="og:image" content="/papermod-cover.png"/>
-
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="/papermod-cover.png"/>
-
+<meta property="og:url" content="/" />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content=""/>
 <meta name="twitter:description" content="Jonathan Roth Blog"/>
 
@@ -78,19 +47,13 @@
   "description": "Jonathan Roth Blog",
   "thumbnailUrl": "/favicon.ico",
   "sameAs": [
-      "", "", ""
+      "https://github.com/JonathanRoth13", "https://www.linkedin.com/in/jonathanroth13/", "mailto:jonathanroth@protonmail.com"
   ]
 }
 </script>
 </head>
 
-<body class="list" id="top">
-<script>
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
+<body class="list dark" id="top">
 
 <header class="header">
     <nav class="nav">
@@ -105,23 +68,18 @@
                 </a>
             </li>
             <li>
-                <a href="/archives/" title="Archive">
-                    <span>Archive</span>
+                <a href="/about_me/" title="About Me">
+                    <span>About Me</span>
                 </a>
             </li>
             <li>
-                <a href="/tags" title="Tags">
-                    <span>Tags</span>
+                <a href="/posts/" title="Projects">
+                    <span>Projects</span>
                 </a>
             </li>
             <li>
-                <a href="/categories" title="Categories">
-                    <span>Categories</span>
-                </a>
-            </li>
-            <li>
-                <a href="/series" title="Series">
-                    <span>Series</span>
+                <a href="/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
                 </a>
             </li>
         </ul>
@@ -132,7 +90,7 @@
             height="256" width="256" />
         <h1>Jonathan Roth</h1>
         <span>grateful for where my love of mathematics has taken me</span><div class="social-icons">
-    <a href="" target="_blank" rel="noopener noreferrer me" title="Github">
+    <a href="https://github.com/JonathanRoth13" target="_blank" rel="noopener noreferrer me" title="Github">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
     stroke-linecap="round" stroke-linejoin="round">
     <path
@@ -140,7 +98,7 @@
     </path>
 </svg>
     </a>
-    <a href="" target="_blank" rel="noopener noreferrer me" title="Linkedin">
+    <a href="https://www.linkedin.com/in/jonathanroth13/" target="_blank" rel="noopener noreferrer me" title="Linkedin">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
     stroke-linecap="round" stroke-linejoin="round">
     <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
@@ -148,7 +106,7 @@
     <circle cx="4" cy="4" r="2"></circle>
 </svg>
     </a>
-    <a href="" target="_blank" rel="noopener noreferrer me" title="Email">
+    <a href="mailto:jonathanroth@protonmail.com" target="_blank" rel="noopener noreferrer me" title="Email">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 21" fill="none" stroke="currentColor" stroke-width="2"
     stroke-linecap="round" stroke-linejoin="round">
     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
@@ -157,27 +115,13 @@
     </a>
 </div>
 
-        <div class="buttons">
-            <a class="button" href="posts" rel="noopener" title="Blog">
-                <span class="button-inner">Blog</span>
-            </a>
-            <a class="button" href="tags" rel="noopener" title="Tags">
-                <span class="button-inner">Tags</span>
-            </a>
-        </div>
     </div>
 </div>
 
     </main>
     
 <footer class="footer">
-    <span>&copy; Jonathan Roth 2021 <a href="/"></a></span>
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
-    </span>
-</footer>
+    <span>&copy; Jonathan Roth 2022 <a href="/"></a></span>
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
         <path d="M12 6H0l6-6z" />
