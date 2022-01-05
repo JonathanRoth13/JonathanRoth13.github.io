@@ -62,6 +62,15 @@
     
     <item>
       <title>Emoji Support</title>
+      <link>/posts/alpha/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/alpha/</guid>
+      <description>Guide to emoji usage in Hugo</description>
+    </item>
+    
+    <item>
+      <title>Emoji Support</title>
       <link>/posts/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       

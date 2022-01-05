@@ -43,6 +43,15 @@
     </item>
     
     <item>
+      <title>About Me</title>
+      <link>/about_me/</link>
+      <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/about_me/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Markdown Syntax Guide</title>
       <link>/posts/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
@@ -80,6 +89,24 @@
     
     <item>
       <title>Emoji Support</title>
+      <link>/hello/beta/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/hello/beta/</guid>
+      <description>Guide to emoji usage in Hugo</description>
+    </item>
+    
+    <item>
+      <title>Emoji Support</title>
+      <link>/posts/alpha/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/alpha/</guid>
+      <description>Guide to emoji usage in Hugo</description>
+    </item>
+    
+    <item>
+      <title>Emoji Support</title>
       <link>/posts/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
@@ -88,15 +115,40 @@
     </item>
     
     <item>
-      <title>About Me</title>
-      <link>/about_me/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Emoji Support</title>
+      <link>/projects/alpha/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/about_me/</guid>
-      <description>they call me saturday</description>
+      <guid>/projects/alpha/</guid>
+      <description>Guide to emoji usage in Hugo</description>
     </item>
     
+    <item>
+      <title>Emoji Support</title>
+      <link>/projects/beta/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/beta/</guid>
+      <description>Guide to emoji usage in Hugo</description>
+    </item>
     
+    <item>
+      <title>Emoji Support</title>
+      <link>/projects/lot/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/lot/</guid>
+      <description>Guide to emoji usage in Hugo</description>
+    </item>
+    
+    <item>
+      <title>Emoji Support</title>
+      <link>/projects/parking/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/parking/</guid>
+      <description>Guide to emoji usage in Hugo</description>
+    </item>
     
     
     
