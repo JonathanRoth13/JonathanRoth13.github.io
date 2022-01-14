@@ -1,32 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Jonathan Roth</title>
-    <link>/</link>
-    <description>Recent content on Jonathan Roth</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 13 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Coming Soon!</title>
-      <link>/projects/coming_soon/</link>
-      <pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/coming_soon/</guid>
-      <description>I am currently in the process of completing and documenting my projects. Come Back Soon!</description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>/about_me/</link>
-      <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/about_me/</guid>
-      <description>Hello, and welcome to my blog!
-I am a fifth-year computer science student at the Rochester Institute of Technology. I am particularly enthusiastic about artificial intelligence, computer vision, and data mining.
-I will have completed all of the coursework required for my bachelors on June 1st, 2022. I am currently searching for an internship for Fall of 2022, after which I would receive my BS in Computer Science.
-I have had two previous internships at Tyber Medical where I worked as a Business Intelligence Associate.</description>
-    </item>
-    
-    
+    <title>Tags on Jonathan Roth</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Jonathan Roth</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
