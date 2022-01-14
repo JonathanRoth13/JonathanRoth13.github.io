@@ -1,10 +1,7 @@
 timeout: 30000
 enableInlineShortcodes: true
 
-privacy:
-  vimeo:
-    disabled: false
-    simple: true
+taxonomies:
 
   twitter:
     disabled: false

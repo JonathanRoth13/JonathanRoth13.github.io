@@ -39,18 +39,17 @@ languages:
                   url: about_me/
                   weight: 20
                 - name: Projects
-                  url: projects/
+                  url: projects
                   weight: 30
-                - name: Posts
-                  url: posts/
-                  weight: 40
+                  #- name: Posts
+                  #url: posts/
+                  #weight: 40
                 - name: Search
                   url: search/
                   weight: 50
-                - name: Archive
-                  url: archive/
-                  weight: 60
-
+                  #- name: Archive
+                  #url: archive/
+                  #weight: 60
 
 
 outputs:
@@ -90,10 +89,7 @@ params:
 
 
 
-    label:
-        text: "Home"
-        icon: icon.png
-        iconHeight: 35
+
 
     # analytics:
     #     google:
@@ -121,7 +117,6 @@ params:
     #     keys: ["title", "permalink", "summary", "content"]
 
 taxonomies:
-        project
 
 markup:
     goldmark:
