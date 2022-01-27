@@ -5,7 +5,33 @@
     <link>/</link>
     <description>Recent content on Jonathan Roth</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 13 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bumbling Documentation</title>
+      <link>/projects/bumbling_documentation/</link>
+      <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/bumbling_documentation/</guid>
+      <description>a
+b
+c
+d
+e</description>
+    </item>
+    
+    <item>
+      <title>Bumbling Guide</title>
+      <link>/projects/bumbling_guide/</link>
+      <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/bumbling_guide/</guid>
+      <description>a
+b
+c
+d
+e</description>
+    </item>
+    
     <item>
       <title>Coming Soon!</title>
       <link>/projects/coming_soon/</link>
