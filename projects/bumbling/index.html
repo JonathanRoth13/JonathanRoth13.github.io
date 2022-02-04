@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Bumbling | Jonathan Roth</title>
+<meta name="keywords" content="" />
+<meta name="description" content="Introduction I&rsquo;ve encountered the following scenario several times:
+My family and I have a vacation of some sort and we each take pictures throughout the entire length of the trip. Afterwards, we share them by uploading them to a shared server. However, all of the photos are all out of order because different phones and cameras use different conventions for naming images. Organizing the photos afterwards can be tedious because the photos are often not sorted in chronological order.">
+<meta name="author" content="Jonathan Roth">
+<link rel="canonical" href="/projects/bumbling/" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.e21185e6c4b43ff34c81666f70aa4f80140274057866888c0a5c28addc9b7fd2.css" integrity="sha256-4hGF5sS0P/NMgWZvcKpPgBQCdAV4ZoiMClwordybf9I=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.27cd435cc9ed6abb4b496581b151804f79f366c412620272bb94e2f5f598ebcc.js" integrity="sha256-J81DXMntartLSWWBsVGAT3nzZsQSYgJyu5Ti9fWY68w="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<link rel="mask-icon" href="/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.80.0" />
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Bumbling" />
+<meta property="og:description" content="Introduction I&rsquo;ve encountered the following scenario several times:
+My family and I have a vacation of some sort and we each take pictures throughout the entire length of the trip. Afterwards, we share them by uploading them to a shared server. However, all of the photos are all out of order because different phones and cameras use different conventions for naming images. Organizing the photos afterwards can be tedious because the photos are often not sorted in chronological order." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/projects/bumbling/" /><meta property="article:section" content="projects" />
+<meta property="article:published_time" content="2022-01-27T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2022-01-27T00:00:00&#43;00:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Bumbling"/>
+<meta name="twitter:description" content="Introduction I&rsquo;ve encountered the following scenario several times:
+My family and I have a vacation of some sort and we each take pictures throughout the entire length of the trip. Afterwards, we share them by uploading them to a shared server. However, all of the photos are all out of order because different phones and cameras use different conventions for naming images. Organizing the photos afterwards can be tedious because the photos are often not sorted in chronological order."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Projects",
+      "item": "/projects/"
+    }
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Bumbling",
+      "item": "/projects/bumbling/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Bumbling",
+  "name": "Bumbling",
+  "description": "Introduction I\u0026rsquo;ve encountered the following scenario several times:\nMy family and I have a vacation of some sort and we each take pictures throughout the entire length of the trip. Afterwards, we share them by uploading them to a shared server. However, all of the photos are all out of order because different phones and cameras use different conventions for naming images. Organizing the photos afterwards can be tedious because the photos are often not sorted in chronological order.",
+  "keywords": [
+    
+  ],
+  "articleBody": "Introduction I’ve encountered the following scenario several times:\nMy family and I have a vacation of some sort and we each take pictures throughout the entire length of the trip. Afterwards, we share them by uploading them to a shared server. However, all of the photos are all out of order because different phones and cameras use different conventions for naming images. Organizing the photos afterwards can be tedious because the photos are often not sorted in chronological order.\nModern operating systems allow you to sort any file by name or by the date that the file was created but that date refers to the current machine (i.e. when you transferred the files from your phone to your computer) and not when the image was created by the camera. Although some files contain date information in the name, for example “IMG_20211014_175621.jpg”, not all of them do. There is no good way to sort images using only a file manager.\nFortunately, most image formats (eg jpg, png, heic, nef) allow the camera to include metadata such as the data that the image was taken along with the actual image itself. Bumbling is a tool that uses that metadata to rename images so that they are in chronological order.\nNecessity is the mother of invention. I designed bumbling to organize photos from an arbitrary amount of sources (ie phones). This makes creating a photo album much easier. I can choose the best pictures from an event without searching everywhere to see if there are any more. I often leave the date prefix and give the photo a friendly name, for example IMG_0864.HEIC – 2021-12-03_xmas-tree.HEIC.\nSource Code available here\nTutorial Here are some photos taken by an IPhone.\n$ ls IMG_0864.HEIC IMG_0928.HEIC IMG_0930.HEIC IMG_0931.HEIC IMG_0933.HEIC IMG_0937.HEIC IMG_0938.HEIC IMG_0939.HEIC IMG_0946.HEIC IMG_0947.HEIC We could include the date in the filename.\n$ bumbling . . IMG_0864.HEIC\t--\t2021-12-03_IMG_0864.HEIC IMG_0928.HEIC\t--\t2021-12-12_IMG_0928.HEIC IMG_0930.HEIC\t--\t2021-12-12_IMG_0930.HEIC IMG_0931.HEIC\t--\t2021-12-12_IMG_0931.HEIC IMG_0933.HEIC\t--\t2021-12-12_IMG_0933.HEIC IMG_0937.HEIC\t--\t2021-12-14_IMG_0937.HEIC IMG_0938.HEIC\t--\t2021-12-14_IMG_0938.HEIC IMG_0939.HEIC\t--\t2021-12-14_IMG_0939.HEIC IMG_0946.HEIC\t--\t2021-12-15_IMG_0946.HEIC IMG_0947.HEIC\t--\t2021-12-15_IMG_0947.HEIC Or we could rename all the files\n$ bumbling -x --y=\"winter '%y \" . . IMG_0864.HEIC\t--\twinter '21 00.HEIC IMG_0928.HEIC\t--\twinter '21 01.HEIC IMG_0930.HEIC\t--\twinter '21 02.HEIC IMG_0931.HEIC\t--\twinter '21 03.HEIC IMG_0933.HEIC\t--\twinter '21 04.HEIC IMG_0937.HEIC\t--\twinter '21 05.HEIC IMG_0938.HEIC\t--\twinter '21 06.HEIC IMG_0939.HEIC\t--\twinter '21 07.HEIC IMG_0946.HEIC\t--\twinter '21 08.HEIC IMG_0947.HEIC\t--\twinter '21 09.HEIC However, bumbling’s main purpose is to combine images from two sources. Here are photos taken from two iphones.\n$ ls iphone_00/ IMG_0964.HEIC IMG_0965.HEIC IMG_0966.HEIC IMG_0971.HEIC IMG_0973.HEIC IMG_0976.HEIC IMG_0977.HEIC IMG_0978.HEIC IMG_0979.HEIC IMG_1005.HEIC IMG_1010.HEIC IMG_1011.HEIC IMG_1012.HEIC IMG_1013.HEIC IMG_1014.HEIC $ ls iphone_01/ IMG_7047.HEIC IMG_7049.HEIC IMG_7104.HEIC IMG_7105.HEIC IMG_7108.HEIC IMG_7114.HEIC IMG_7115.HEIC IMG_7339.HEIC IMG_7340.HEIC IMG_7341.HEIC IMG_7342.HEIC IMG_7343.HEIC IMG_7346.HEIC IMG_7347.HEIC IMG_7348.HEIC IMG_7349.HEIC IMG_7350.HEIC IMG_7351.HEIC IMG_7352.HEIC IMG_7353.HEIC IMG_7354.HEIC Although the photos are in order on both phones, they will not be in order once they are combined into the same directory. All of the photos from phone 0 will be before phone 1. If you wanted to make a album for example, you would constantly be looking back and forth. This is what bumbling was designed for.\n$ bumbling -x iphone_00/ iphone_01 . iphone_00/IMG_0964.HEIC\t--\t2021-12-17_00.HEIC iphone_00/IMG_0965.HEIC\t--\t2021-12-17_01.HEIC iphone_00/IMG_0966.HEIC\t--\t2021-12-17_02.HEIC iphone_00/IMG_0971.HEIC\t--\t2021-12-18_03.HEIC iphone_00/IMG_0973.HEIC\t--\t2021-12-18_04.HEIC iphone_01/IMG_7047.HEIC\t--\t2021-12-18_05.HEIC iphone_01/IMG_7049.HEIC\t--\t2021-12-19_06.HEIC iphone_00/IMG_0976.HEIC\t--\t2021-12-19_07.HEIC iphone_00/IMG_0977.HEIC\t--\t2021-12-19_08.HEIC iphone_00/IMG_0978.HEIC\t--\t2021-12-19_09.HEIC iphone_00/IMG_0979.HEIC\t--\t2021-12-19_10.HEIC iphone_01/IMG_7104.HEIC\t--\t2021-12-21_11.HEIC iphone_01/IMG_7105.HEIC\t--\t2021-12-21_12.HEIC iphone_01/IMG_7108.HEIC\t--\t2021-12-21_13.HEIC iphone_00/IMG_1005.HEIC\t--\t2021-12-22_14.HEIC iphone_01/IMG_7114.HEIC\t--\t2021-12-22_15.HEIC iphone_01/IMG_7115.HEIC\t--\t2021-12-22_16.HEIC iphone_00/IMG_1010.HEIC\t--\t2021-12-26_17.HEIC iphone_00/IMG_1011.HEIC\t--\t2021-12-26_18.HEIC iphone_00/IMG_1012.HEIC\t--\t2021-12-26_19.HEIC iphone_00/IMG_1013.HEIC\t--\t2021-12-26_20.HEIC iphone_00/IMG_1014.HEIC\t--\t2021-12-26_21.HEIC iphone_01/IMG_7339.HEIC\t--\t2021-12-26_22.HEIC iphone_01/IMG_7340.HEIC\t--\t2021-12-26_23.HEIC iphone_01/IMG_7341.HEIC\t--\t2021-12-26_24.HEIC iphone_01/IMG_7342.HEIC\t--\t2021-12-26_25.HEIC iphone_01/IMG_7343.HEIC\t--\t2021-12-26_26.HEIC iphone_01/IMG_7346.HEIC\t--\t2021-12-27_27.HEIC iphone_01/IMG_7347.HEIC\t--\t2021-12-27_28.HEIC iphone_01/IMG_7348.HEIC\t--\t2021-12-27_29.HEIC iphone_01/IMG_7349.HEIC\t--\t2021-12-27_30.HEIC iphone_01/IMG_7350.HEIC\t--\t2021-12-27_31.HEIC iphone_01/IMG_7351.HEIC\t--\t2021-12-27_32.HEIC iphone_01/IMG_7352.HEIC\t--\t2021-12-27_33.HEIC iphone_01/IMG_7353.HEIC\t--\t2021-12-27_34.HEIC iphone_01/IMG_7354.HEIC\t--\t2021-12-27_35.HEIC Now all the photos, regardless of origin, are nicely organized.\n",
+  "wordCount" : "647",
+  "inLanguage": "en",
+  "datePublished": "2022-01-27T00:00:00Z",
+  "dateModified": "2022-01-27T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Jonathan Roth"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/projects/bumbling/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Jonathan Roth",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class=" dark" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="/" accesskey="h" title="Jonathan Roth (Alt + H)">Jonathan Roth</a>
+            <span class="logo-switches">
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="/about_me/" title="About Me">
+                    <span>About Me</span>
+                </a>
+            </li>
+            <li>
+                <a href="/projects" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="/">Home</a>&nbsp;»&nbsp;<a href="/projects/">Projects</a></div>
+    <h1 class="post-title">
+      Bumbling
+    </h1>
+    <div class="post-meta"><span title='2022-01-27 00:00:00 +0000 UTC'>January 27, 2022</span>&nbsp;|&nbsp;<a href="https://github.com/JonathanRoth13/JonathanRoth13.github.io/tree/hugo/content/projects/bumbling.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
+
+</div>
+  </header> 
+  <div class="post-content"><h3 id="introduction">Introduction<a hidden class="anchor" aria-hidden="true" href="#introduction">#</a></h3>
+<p>I&rsquo;ve encountered the following scenario several times:</p>
+<p>My family and I have a vacation of some sort and we each take pictures throughout the entire length of the trip. Afterwards, we share them by uploading them to a shared server. However, all of the photos are all out of order because different phones and cameras use different conventions for naming images. Organizing the photos afterwards can be tedious because the photos are often not sorted in chronological order.</p>
+<p>Modern operating systems allow you to sort any file by name or by the date that the file was created but that date refers to the current machine (i.e. when you transferred the files from your phone to your computer) and not when the image was created by the camera. Although some files contain date information in the name, for example &ldquo;IMG_20211014_175621.jpg&rdquo;, not all of them do. There is no good way to sort images using only a file manager.</p>
+<p>Fortunately, most image formats (eg jpg, png, heic, nef) allow the camera to include metadata such as the data that the image was taken along with the actual image itself. Bumbling is a tool that uses that metadata to rename images so that they are in chronological order.</p>
+<p>Necessity is the mother of invention. I designed bumbling to organize photos from an arbitrary amount of sources (ie phones). This makes creating a photo album much easier. I can choose the best pictures from an event without searching everywhere to see if there are any more. I often leave the date prefix and give the photo a friendly name, for example IMG_0864.HEIC &ndash;&gt; 2021-12-03_xmas-tree.HEIC.</p>
+<p>Source Code available <a href="https://github.com/JonathanRoth13/bumbling" title="here">here</a></p>
+<h3 id="tutorial">Tutorial<a hidden class="anchor" aria-hidden="true" href="#tutorial">#</a></h3>
+<p>Here are some photos taken by an IPhone.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ ls
+IMG_0864.HEIC
+IMG_0928.HEIC
+IMG_0930.HEIC
+IMG_0931.HEIC
+IMG_0933.HEIC
+IMG_0937.HEIC
+IMG_0938.HEIC
+IMG_0939.HEIC
+IMG_0946.HEIC
+IMG_0947.HEIC
+</code></pre></div><p>We could include the date in the filename.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ bumbling . .
+IMG_0864.HEIC	--&gt;	2021-12-03_IMG_0864.HEIC
+IMG_0928.HEIC	--&gt;	2021-12-12_IMG_0928.HEIC
+IMG_0930.HEIC	--&gt;	2021-12-12_IMG_0930.HEIC
+IMG_0931.HEIC	--&gt;	2021-12-12_IMG_0931.HEIC
+IMG_0933.HEIC	--&gt;	2021-12-12_IMG_0933.HEIC
+IMG_0937.HEIC	--&gt;	2021-12-14_IMG_0937.HEIC
+IMG_0938.HEIC	--&gt;	2021-12-14_IMG_0938.HEIC
+IMG_0939.HEIC	--&gt;	2021-12-14_IMG_0939.HEIC
+IMG_0946.HEIC	--&gt;	2021-12-15_IMG_0946.HEIC
+IMG_0947.HEIC	--&gt;	2021-12-15_IMG_0947.HEIC
+</code></pre></div><p>Or we could rename all the files</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ bumbling -x --y=&#34;winter &#39;%y &#34; . .
+IMG_0864.HEIC	--&gt;	winter &#39;21 00.HEIC
+IMG_0928.HEIC	--&gt;	winter &#39;21 01.HEIC
+IMG_0930.HEIC	--&gt;	winter &#39;21 02.HEIC
+IMG_0931.HEIC	--&gt;	winter &#39;21 03.HEIC
+IMG_0933.HEIC	--&gt;	winter &#39;21 04.HEIC
+IMG_0937.HEIC	--&gt;	winter &#39;21 05.HEIC
+IMG_0938.HEIC	--&gt;	winter &#39;21 06.HEIC
+IMG_0939.HEIC	--&gt;	winter &#39;21 07.HEIC
+IMG_0946.HEIC	--&gt;	winter &#39;21 08.HEIC
+IMG_0947.HEIC	--&gt;	winter &#39;21 09.HEIC
+</code></pre></div><p>However, bumbling&rsquo;s main purpose is to combine images from two sources. Here are photos taken from two iphones.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ ls iphone_00/
+IMG_0964.HEIC
+IMG_0965.HEIC
+IMG_0966.HEIC
+IMG_0971.HEIC
+IMG_0973.HEIC
+IMG_0976.HEIC
+IMG_0977.HEIC
+IMG_0978.HEIC
+IMG_0979.HEIC
+IMG_1005.HEIC
+IMG_1010.HEIC
+IMG_1011.HEIC
+IMG_1012.HEIC
+IMG_1013.HEIC
+IMG_1014.HEIC
+
+$ ls iphone_01/
+IMG_7047.HEIC
+IMG_7049.HEIC
+IMG_7104.HEIC
+IMG_7105.HEIC
+IMG_7108.HEIC
+IMG_7114.HEIC
+IMG_7115.HEIC
+IMG_7339.HEIC
+IMG_7340.HEIC
+IMG_7341.HEIC
+IMG_7342.HEIC
+IMG_7343.HEIC
+IMG_7346.HEIC
+IMG_7347.HEIC
+IMG_7348.HEIC
+IMG_7349.HEIC
+IMG_7350.HEIC
+IMG_7351.HEIC
+IMG_7352.HEIC
+IMG_7353.HEIC
+IMG_7354.HEIC
+</code></pre></div><p>Although the photos are in order on both phones, they will not be in order once they are combined into the same directory. All of the photos from phone 0 will be before phone 1. If you wanted to make a album for example, you would constantly be looking back and forth. This is what bumbling was designed for.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ bumbling -x iphone_00/ iphone_01 .
+iphone_00/IMG_0964.HEIC	--&gt;	2021-12-17_00.HEIC
+iphone_00/IMG_0965.HEIC	--&gt;	2021-12-17_01.HEIC
+iphone_00/IMG_0966.HEIC	--&gt;	2021-12-17_02.HEIC
+iphone_00/IMG_0971.HEIC	--&gt;	2021-12-18_03.HEIC
+iphone_00/IMG_0973.HEIC	--&gt;	2021-12-18_04.HEIC
+iphone_01/IMG_7047.HEIC	--&gt;	2021-12-18_05.HEIC
+iphone_01/IMG_7049.HEIC	--&gt;	2021-12-19_06.HEIC
+iphone_00/IMG_0976.HEIC	--&gt;	2021-12-19_07.HEIC
+iphone_00/IMG_0977.HEIC	--&gt;	2021-12-19_08.HEIC
+iphone_00/IMG_0978.HEIC	--&gt;	2021-12-19_09.HEIC
+iphone_00/IMG_0979.HEIC	--&gt;	2021-12-19_10.HEIC
+iphone_01/IMG_7104.HEIC	--&gt;	2021-12-21_11.HEIC
+iphone_01/IMG_7105.HEIC	--&gt;	2021-12-21_12.HEIC
+iphone_01/IMG_7108.HEIC	--&gt;	2021-12-21_13.HEIC
+iphone_00/IMG_1005.HEIC	--&gt;	2021-12-22_14.HEIC
+iphone_01/IMG_7114.HEIC	--&gt;	2021-12-22_15.HEIC
+iphone_01/IMG_7115.HEIC	--&gt;	2021-12-22_16.HEIC
+iphone_00/IMG_1010.HEIC	--&gt;	2021-12-26_17.HEIC
+iphone_00/IMG_1011.HEIC	--&gt;	2021-12-26_18.HEIC
+iphone_00/IMG_1012.HEIC	--&gt;	2021-12-26_19.HEIC
+iphone_00/IMG_1013.HEIC	--&gt;	2021-12-26_20.HEIC
+iphone_00/IMG_1014.HEIC	--&gt;	2021-12-26_21.HEIC
+iphone_01/IMG_7339.HEIC	--&gt;	2021-12-26_22.HEIC
+iphone_01/IMG_7340.HEIC	--&gt;	2021-12-26_23.HEIC
+iphone_01/IMG_7341.HEIC	--&gt;	2021-12-26_24.HEIC
+iphone_01/IMG_7342.HEIC	--&gt;	2021-12-26_25.HEIC
+iphone_01/IMG_7343.HEIC	--&gt;	2021-12-26_26.HEIC
+iphone_01/IMG_7346.HEIC	--&gt;	2021-12-27_27.HEIC
+iphone_01/IMG_7347.HEIC	--&gt;	2021-12-27_28.HEIC
+iphone_01/IMG_7348.HEIC	--&gt;	2021-12-27_29.HEIC
+iphone_01/IMG_7349.HEIC	--&gt;	2021-12-27_30.HEIC
+iphone_01/IMG_7350.HEIC	--&gt;	2021-12-27_31.HEIC
+iphone_01/IMG_7351.HEIC	--&gt;	2021-12-27_32.HEIC
+iphone_01/IMG_7352.HEIC	--&gt;	2021-12-27_33.HEIC
+iphone_01/IMG_7353.HEIC	--&gt;	2021-12-27_34.HEIC
+iphone_01/IMG_7354.HEIC	--&gt;	2021-12-27_35.HEIC
+</code></pre></div><p>Now all the photos, regardless of origin, are nicely organized.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; Jonathan Roth 2022 <a href="/"></a></span>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerText = 'copy';
+
+        function copyingDone() {
+            copybutton.innerText = 'copied!';
+            setTimeout(() => {
+                copybutton.innerText = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

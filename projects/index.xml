@@ -7,38 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 27 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Bumbling Documentation</title>
-      <link>/projects/bumbling_documentation/</link>
+      <title>Bumbling</title>
+      <link>/projects/bumbling/</link>
       <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>/projects/bumbling_documentation/</guid>
-      <description>a
-b
-c
-d
-e</description>
-    </item>
-    
-    <item>
-      <title>Bumbling Guide</title>
-      <link>/projects/bumbling_guide/</link>
-      <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/bumbling_guide/</guid>
-      <description>a
-b
-c
-d
-e</description>
-    </item>
-    
-    <item>
-      <title>Coming Soon!</title>
-      <link>/projects/coming_soon/</link>
-      <pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/coming_soon/</guid>
-      <description>I am currently in the process of completing and documenting my projects. Come Back Soon!</description>
+      <guid>/projects/bumbling/</guid>
+      <description>Introduction I&amp;rsquo;ve encountered the following scenario several times:
+My family and I have a vacation of some sort and we each take pictures throughout the entire length of the trip. Afterwards, we share them by uploading them to a shared server. However, all of the photos are all out of order because different phones and cameras use different conventions for naming images. Organizing the photos afterwards can be tedious because the photos are often not sorted in chronological order.</description>
     </item>
     
   </channel>
