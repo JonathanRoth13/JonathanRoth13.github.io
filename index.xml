@@ -16,17 +16,6 @@
 My family and I have a vacation of some sort and we each take pictures throughout the entire length of the trip. Afterwards, we share them by uploading them to a shared server. However, all of the photos are all out of order because different phones and cameras use different conventions for naming images. Organizing the photos afterwards can be tedious because the photos are often not sorted in chronological order.</description>
     </item>
     
-    <item>
-      <title>About Me</title>
-      <link>/about_me/</link>
-      <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/about_me/</guid>
-      <description>Hello, and welcome to my profile!
-I graduated from RIT in May of 2022 with a B.S. in computer science. I have professional experience in software development and business intelligence. I am particularly enthusiastic about artificial intelligence, computer vision, and data mining.
-I have had two previous internships at Tyber Medical where I worked as a Business Intelligence Associate. I am grateful for the opportunity that I had to learn about medical device manufacturing and to be emerged in a professional environment.</description>
-    </item>
-    
     
   </channel>
 </rss>
