@@ -35,12 +35,12 @@ languages:
                 - name: Home
                   url: / 
                   weight: 10
-                - name: About Me
-                  url: about_me/
-                  weight: 20
-                  #- name: Projects
-                  #url: projects
-                  #weight: 30
+                    #- name: About Me
+                    #url: about_me/
+                    #weight: 20
+                - name: Projects
+                  url: projects
+                  weight: 30
                   #- name: Posts
                   #url: posts/
                   #weight: 40
